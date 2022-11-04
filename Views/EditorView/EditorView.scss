@@ -1,0 +1,42 @@
+#EditorView {
+  border: 1px solid #000;
+  width: fit-content;
+  margin: auto;
+}
+
+#EditorBox{
+  display: flex;
+  justify-content: space-between;
+}
+
+#EditorContainer{
+  .CanvasContent{
+    overflow: scroll;
+    padding: 10px;
+    height: 500px;
+    width:1000px;
+  }
+}
+
+#Editor{
+  display: contents;
+}
+
+#EditorInformation {
+  display: contents;
+  #EditorInfoHeader {
+    background-color: black;
+    padding: 1.5em;
+    color: white;
+  }
+
+}
+.EditorInfoContainer {
+      width: 400px;
+      max-height: 500px;
+      scroll-behavior: smooth;
+      overflow: scroll;
+}
+    .Measurement {
+      border: 1px solid #000;
+    }

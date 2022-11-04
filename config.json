@@ -1,0 +1,10 @@
+{
+    "cognito": {
+        "REGION": "us-east-2",
+        "USER_POOL_ID": "us-east-2_p9Xyhx8kS",
+        "APP_CLIENT_ID": "6fn2okibvbpn0ukm8trh8lm1tm"
+        
+    },
+    "API_URL": "https://la4e1jybji.execute-api.us-east-2.amazonaws.com/Dev/"
+    
+}

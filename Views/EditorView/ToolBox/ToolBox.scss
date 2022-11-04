@@ -1,0 +1,52 @@
+
+#toolbar {
+    background-color:black;
+    padding: 1em;
+    color: #fff;
+    display: flex;
+    flex-grow: 1;
+}
+#toolbox {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.labels *{
+    width: 2em;
+    height: 2em;
+    padding: 1px;
+    border: 2px solid #000;
+   // margin: 5px;
+   // padding: 5px;
+}
+
+.labels *:hover {
+    border: 2px solid #fff;
+}
+.label{
+    width: 400px;
+    text-align: center;
+}
+
+.utils *{
+    width: 2em;
+    height: 2em;
+    padding: 1px;
+    border: 2px solid #000;
+}
+
+.utils *:hover {
+    padding: 1px;
+    border: 2px solid #fff;
+}
+
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
